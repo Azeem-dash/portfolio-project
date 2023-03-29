@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import "./Works.css";
-import Html from "../../img/html.png";
 import Docker from "../../img/docker.png";
 import JS from "../../img/js.png";
 import Amazon from "../../img/amazon.png";

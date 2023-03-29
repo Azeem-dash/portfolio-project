@@ -7,8 +7,6 @@ import { Pagination } from "swiper";
 import "swiper/css/pagination";
 import Protfolio1 from "../../img/protfolio1.png";
 import Protfolio2 from "../../img/protfolio2.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
 const Testimonial = () => {
   const theme = useContext(themeContext);
