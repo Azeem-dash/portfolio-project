@@ -2,8 +2,8 @@ import React, { useContext } from "react";
 import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
+import Protfolio1 from "../../img/protfolio1.png";
+import Protfolio2 from "../../img/protfolio2.png";
 import HOC from "../../img/hoc.png";
 import MusicApp from "../../img/musicapp.png";
 import { themeContext } from "../../Context";
@@ -18,16 +18,17 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
+
         spaceBetween={30}
         slidesPerView={3}
         grabCursor={true}
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={Protfolio1} alt="" />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={Protfolio2} alt="" />
         </SwiperSlide>
         <SwiperSlide>
           <img src={MusicApp} alt="" />

@@ -30,12 +30,13 @@
 }
 .testimonial{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     align-items: center;
-    justify-content: space-evenly;
-    padding: 2rem;
+    /* justify-content: space-evenly; */
+    /* padding: 1rem; */
     width: 30rem;
-    height: 12rem;
+    height: 20rem;
+    border-radius: 10px;
     /* styles same as work.css */
     background: rgba(255, 255, 255, 0.26);
     border: 7px solid var(--blueCard);
