@@ -123,14 +123,13 @@
   .w-right {
     display: flex;
     align-items: flex-start;
-    justify-content:start;
+    justify-content: flex-start;
     transform: scale(0.7);
   }
-  .w-mainCircle{
+  .w-mainCircle {
     position: static;
   }
-  .w-backCircle{
-    left: 8rem!important;
+  .w-backCircle {
+    left: 8rem !important;
   }
-
 }
